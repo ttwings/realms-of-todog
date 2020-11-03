@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/gem_glass.png-27195d9bb05f5e3485f4bab043f7ea3e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/item/wand/gem_glass.png"
-source_md5="53b5ea5ea5a10fb2dcb793a9817fc36e"
-
 dest_files=[ "res://.import/gem_glass.png-27195d9bb05f5e3485f4bab043f7ea3e.stex" ]
-dest_md5="134098a1db700a6cc7386d359cb5198a"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

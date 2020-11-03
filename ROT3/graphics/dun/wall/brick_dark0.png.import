@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/brick_dark0.png-c956554069f26851e6c9b927c0fc4d62.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/brick_dark0.png"
-source_md5="6d178a9a5a88d15189cdec6549f2ec03"
-
 dest_files=[ "res://.import/brick_dark0.png-c956554069f26851e6c9b927c0fc4d62.stex" ]
-dest_md5="a42cd459823b2d2ca1203f44117ba5d1"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

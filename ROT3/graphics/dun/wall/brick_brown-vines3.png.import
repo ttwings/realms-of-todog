@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/brick_brown-vines3.png-b2d5b376c2ea5e4d99ff982a363463aa.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/brick_brown-vines3.png"
-source_md5="f985b8c73db6e877b4120a249fe18e6d"
-
 dest_files=[ "res://.import/brick_brown-vines3.png-b2d5b376c2ea5e4d99ff982a363463aa.stex" ]
-dest_md5="df3c39ac244e2de282d6ffa28a21455d"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

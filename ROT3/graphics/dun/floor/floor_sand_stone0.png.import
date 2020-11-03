@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/floor_sand_stone0.png-71ebd2db0226753c6337da978536aeb8.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/floor_sand_stone0.png"
-source_md5="ad51a50509fc472765911ca929a263ea"
-
 dest_files=[ "res://.import/floor_sand_stone0.png-71ebd2db0226753c6337da978536aeb8.stex" ]
-dest_md5="5f7068e4cba83cfa3bcae0c02eea9e0d"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

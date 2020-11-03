@@ -44,7 +44,7 @@ var SID # Spawn ID
 var _dbpath # source Path to DataBase
 
 func get_save_dict():
-	assert self._dbpath
+	assert(self._dbpath)
 	var data = {
 		"id": self.SID,
 		"path": self._dbpath,

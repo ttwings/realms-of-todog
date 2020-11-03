@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/lair2.png-b36547671039e64e784c509140783fe1.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/lair2.png"
-source_md5="8e8892ac7f97d951840db263d99ddb65"
-
 dest_files=[ "res://.import/lair2.png-b36547671039e64e784c509140783fe1.stex" ]
-dest_md5="76071564c1e6f5efe7918ac6512bfd9e"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

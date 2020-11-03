@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/wall_vines6.png-beb8c07637207c81652e1effdf791d62.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/wall_vines6.png"
-source_md5="d5fc5aa21c502f3b9c5e3a24d6ee1012"
-
 dest_files=[ "res://.import/wall_vines6.png-beb8c07637207c81652e1effdf791d62.stex" ]
-dest_md5="633fca7c6f090c3c120a494344be8725"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

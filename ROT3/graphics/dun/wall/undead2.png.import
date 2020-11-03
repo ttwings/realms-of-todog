@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/undead2.png-ced4273c4d7fddb4decbd65261278da7.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/undead2.png"
-source_md5="f12859e5cf554086f3d8b0b58fe5e21b"
-
 dest_files=[ "res://.import/undead2.png-ced4273c4d7fddb4decbd65261278da7.stex" ]
-dest_md5="740f2524e289292e4932fe956d44c869"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

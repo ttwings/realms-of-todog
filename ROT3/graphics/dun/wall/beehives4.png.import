@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/beehives4.png-d4a91b0c7a4b491c0d619d807c1c4b92.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/beehives4.png"
-source_md5="16f86eee9d1f143a8a7fe94b691fe002"
-
 dest_files=[ "res://.import/beehives4.png-d4a91b0c7a4b491c0d619d807c1c4b92.stex" ]
-dest_md5="ce31764d0c1252f7cee684221d3671bc"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

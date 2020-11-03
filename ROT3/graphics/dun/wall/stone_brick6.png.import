@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/stone_brick6.png-712ca8b4746377fa8fbad41138dfce54.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/stone_brick6.png"
-source_md5="c7b01ffd3a59e35603156f795d6d1f31"
-
 dest_files=[ "res://.import/stone_brick6.png-712ca8b4746377fa8fbad41138dfce54.stex" ]
-dest_md5="4aa9c946516492590f662d45177f60f6"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/stone_black_marked7.png-2a0e963b65c01caefa9192715ea2fc51.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/stone_black_marked7.png"
-source_md5="ee1519ce50d6032b52cb9e071040d970"
-
 dest_files=[ "res://.import/stone_black_marked7.png-2a0e963b65c01caefa9192715ea2fc51.stex" ]
-dest_md5="0a5b0b561af2eeb0e7cc2b672679f49a"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

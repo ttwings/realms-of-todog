@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/marble_floor1.png-251ca113fd148c6c94a3d66f90fa02ed.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/marble_floor1.png"
-source_md5="5686b00bc92fc31db215fb4ec349e1c8"
-
 dest_files=[ "res://.import/marble_floor1.png-251ca113fd148c6c94a3d66f90fa02ed.stex" ]
-dest_md5="07eeb2733005bf7e218334f424a1b93c"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

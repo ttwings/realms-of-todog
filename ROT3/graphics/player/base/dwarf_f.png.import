@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/dwarf_f.png-23a4d228e3c5285a2c22761991062b0e.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/player/base/dwarf_f.png"
-source_md5="cec9ac3e2dc292d68cf20d175fe49642"
-
 dest_files=[ "res://.import/dwarf_f.png-23a4d228e3c5285a2c22761991062b0e.stex" ]
-dest_md5="cc21a354cf7063276935c4388644d365"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

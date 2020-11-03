@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/ice0.png-f5c1bb7421c84ffed770451e85a23782.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/ice0.png"
-source_md5="bee9a8e63d13e443cebee01945575ae5"
-
 dest_files=[ "res://.import/ice0.png-f5c1bb7421c84ffed770451e85a23782.stex" ]
-dest_md5="796bd2fb2d7dc8dd04a6781f7f352c32"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

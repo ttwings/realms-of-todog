@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/hive2.png-7b0b4e82d921dbaf43243e393d28fbe8.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/hive2.png"
-source_md5="87580d070721d6baa9893b0aaa53acf4"
-
 dest_files=[ "res://.import/hive2.png-7b0b4e82d921dbaf43243e393d28fbe8.stex" ]
-dest_md5="486010063879624d7eb85e087ad5a57f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

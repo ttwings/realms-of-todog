@@ -69,15 +69,15 @@ const ABBREV = {
 	}
 
 const DIRECTIONS = {
-    "N":    Vector2(0,-1),
-    "NE":   Vector2(1,-1),
-    "E":    Vector2(1,0),
-    "SE":   Vector2(1,1),
-    "S":    Vector2(0,1),
-    "SW":   Vector2(-1,1),
-    "W":    Vector2(-1,0),
-    "NW":   Vector2(-1,-1),
-    }
+	"N":    Vector2(0,-1),
+	"NE":   Vector2(1,-1),
+	"E":    Vector2(1,0),
+	"SE":   Vector2(1,1),
+	"S":    Vector2(0,1),
+	"SW":   Vector2(-1,1),
+	"W":    Vector2(-1,0),
+	"NW":   Vector2(-1,-1),
+	}
 
 var game
 var map
@@ -127,8 +127,8 @@ func get_random_tile_family_pair():
 	return choices[ randi() % choices.size() ]
 
 func get_random_tile_index_by_family( type, family ):
-	assert type in TILE_FAMILY
-	assert family in TILE_FAMILY[type]
+	assert (type in TILE_FAMILY)
+	assert (family in TILE_FAMILY[type])
 	var list = TILE_FAMILY[type][family]
 	var n = randi() % list.size()
 	return list[n]
@@ -168,7 +168,7 @@ func process_attack( attacker, target ):
 	if VERBOSE_ATTACKS:
 		var hit_txt = ["MISS!","HIT!"][int(hits)]
 		var roll_txt = ">> Attack roll for %s: 1d30+%s=%s(%s) vs AC%s .. %s" % [attacker.get_message_name(), str(attack_bonus), str(attack_roll+attack_bonus), str(attack_roll), str(ac), hit_txt]
-		RPG.messageboard.message( roll_txt )
+		messageboard.message( roll_txt )
 	# Return combat result in dictionary form
 	return {
 		"hits":	hits,

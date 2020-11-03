@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/marble_wall3.png-19a937d58831b46b292ad9b5a7c7efff.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/marble_wall3.png"
-source_md5="d9209820e1faed7c22d07dba6306a62e"
-
 dest_files=[ "res://.import/marble_wall3.png-19a937d58831b46b292ad9b5a7c7efff.stex" ]
-dest_md5="16bb8a8565de80c827a62be54e316ef0"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

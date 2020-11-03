@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/rect_gray1.png-632e77430f136157a7098232dcaafb50.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/rect_gray1.png"
-source_md5="751452ec03b71834724b2e7bbf92b6ac"
-
 dest_files=[ "res://.import/rect_gray1.png-632e77430f136157a7098232dcaafb50.stex" ]
-dest_md5="be29f607e38327d479f81dac4fd50ec4"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

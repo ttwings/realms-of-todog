@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/stone2_brown3.png-641dfc45a4fa085c91628a4549f3543f.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/stone2_brown3.png"
-source_md5="9d49a677f04159016dc65bf3013db84e"
-
 dest_files=[ "res://.import/stone2_brown3.png-641dfc45a4fa085c91628a4549f3543f.stex" ]
-dest_md5="a683057f42a89d3a2ccebb452fa6c142"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

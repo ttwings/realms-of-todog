@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/pebble_brown2.png-7f41e00671228f5aafaaa11c2e006e86.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/pebble_brown2.png"
-source_md5="0fe0fb9926770600713e87c5297a0b21"
-
 dest_files=[ "res://.import/pebble_brown2.png-7f41e00671228f5aafaaa11c2e006e86.stex" ]
-dest_md5="57bbb74dc5ac997c2e637fc18bbf974e"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

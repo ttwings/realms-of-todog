@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/boromir.png-009451d4d5246d4d3cdf95ff32c5fcef.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/doll/shield/boromir.png"
-source_md5="01d9f38535da4dad62d98f626785b256"
-
 dest_files=[ "res://.import/boromir.png-009451d4d5246d4d3cdf95ff32c5fcef.stex" ]
-dest_md5="ccda5a298ef0fdd288e46ff725e3744f"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

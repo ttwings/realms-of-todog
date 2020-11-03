@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/middle_brown.png-c05c8668f756e49ff7c5394e4fb93756.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/doll/boots/middle_brown.png"
-source_md5="321c5c90962f282248560b33fe9ba132"
-
 dest_files=[ "res://.import/middle_brown.png-c05c8668f756e49ff7c5394e4fb93756.stex" ]
-dest_md5="14e583263e01629c645ae7bea7ce9403"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -46,6 +46,6 @@ func _on_ExaminePanel_gui_input(ev):
 
 
 func _set_thing( what ):
-	assert "Name" in what
+	assert("Name" in what)
 	thing = what
 	popup_centered()

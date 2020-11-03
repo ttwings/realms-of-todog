@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/crystal_wall12.png-105632be745b57a5f90d8a07bd7884d9.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/wall/crystal_wall12.png"
-source_md5="656146839e1f2d3ced5b83adfae39914"
-
 dest_files=[ "res://.import/crystal_wall12.png-105632be745b57a5f90d8a07bd7884d9.stex" ]
-dest_md5="507e06596de360fce2e3776c469765a3"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

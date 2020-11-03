@@ -43,34 +43,20 @@
 [ext_resource path="res://graphics/mon/hog.png" type="Texture" id=41]
 [ext_resource path="res://components/AI/AI.tscn" type="PackedScene" id=42]
 
-[node name="DATA" type="Node" index="0"]
-
+[node name="DATA" type="Node"]
 script = ExtResource( 1 )
 
-[node name="Species" type="Node" parent="." index="0"]
+[node name="Species" type="Node" parent="."]
 
-editor/display_folded = true
-
-[node name="Human" type="Node" parent="Species" index="0"]
-
+[node name="Human" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Humans have no particular strengths or weaknesses, but learn quicker than most."
-ethnicity = ""
-hp_per_level = 0
-mp_per_level = 0
 xp_rate = 2.0
-hp_regen = 0.05
 mp_regen = 0.02
-move_speed = 1.0
-strength_mod = 0
-dexterity_mod = 0
-intelligence_mod = 0
-resistance = 0
 male_sprite = ExtResource( 3 )
 female_sprite = ExtResource( 4 )
 
-[node name="Godot" type="Node" parent="Species" index="1"]
-
+[node name="Godot" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Godotians burn brighter than most, but have a hard time recovering from hardship."
 ethnicity = "godotian"
@@ -79,20 +65,16 @@ mp_per_level = 4
 xp_rate = 0.6
 hp_regen = 0.2
 mp_regen = 0.2
-move_speed = 1.0
 strength_mod = 1
 dexterity_mod = 1
 intelligence_mod = 1
-resistance = 0
 male_sprite = ExtResource( 5 )
 female_sprite = ExtResource( 6 )
 
-[node name="High Elf" type="Node" parent="Species" index="2"]
-
+[node name="High Elf" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Quick of hand and mind, but frail and methodical."
 ethnicity = "elven"
-hp_per_level = 0
 mp_per_level = 3
 xp_rate = 0.5
 hp_regen = 0.03
@@ -105,8 +87,7 @@ resistance = 10
 male_sprite = ExtResource( 7 )
 female_sprite = ExtResource( 8 )
 
-[node name="Deep Elf" type="Node" parent="Species" index="3"]
-
+[node name="Deep Elf" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Born and raised on what most would call Hell, these Elves are tough and brutal in their ways."
 ethnicity = "elven"
@@ -123,16 +104,13 @@ resistance = 5
 male_sprite = ExtResource( 9 )
 female_sprite = ExtResource( 10 )
 
-[node name="Hill Dwarf" type="Node" parent="Species" index="4"]
-
+[node name="Hill Dwarf" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Surface-dwelling Dwarves are quick of wit and stout of arm."
 ethnicity = "dwarven"
 hp_per_level = 2
-mp_per_level = 0
 xp_rate = 1.1
 hp_regen = 0.08
-mp_regen = 0.01
 move_speed = 0.8
 strength_mod = 3
 dexterity_mod = -2
@@ -141,8 +119,7 @@ resistance = 15
 male_sprite = ExtResource( 11 )
 female_sprite = ExtResource( 12 )
 
-[node name="Deep Dwarf" type="Node" parent="Species" index="5"]
-
+[node name="Deep Dwarf" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Dwarves forges in the underbelly of the world. Highly resistant to magic, but barely able to use it themselves."
 ethnicity = "dwarven"
@@ -150,7 +127,6 @@ hp_per_level = 2
 mp_per_level = -3
 xp_rate = 1.2
 hp_regen = 0.08
-mp_regen = 0.01
 move_speed = 0.8
 strength_mod = 3
 dexterity_mod = -2
@@ -159,8 +135,7 @@ resistance = 20
 male_sprite = ExtResource( 13 )
 female_sprite = ExtResource( 14 )
 
-[node name="Halfling" type="Node" parent="Species" index="6"]
-
+[node name="Halfling" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Jovial, steadfast and small. The hinnish folk make up for lack of natural ability with a particularly dedicated fervor."
 ethnicity = "hinnish"
@@ -177,65 +152,48 @@ resistance = 5
 male_sprite = ExtResource( 15 )
 female_sprite = ExtResource( 16 )
 
-[node name="Gnome" type="Node" parent="Species" index="7"]
-
+[node name="Gnome" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Some of the oldest peoples of the world. Slow and methodical, but industrious and oh that nose!"
 ethnicity = "gnomish"
-hp_per_level = 0
 mp_per_level = 2
-xp_rate = 1.0
 hp_regen = 0.03
 mp_regen = 0.06
 move_speed = 0.85
 strength_mod = -2
 dexterity_mod = 1
 intelligence_mod = 1
-resistance = 0
 male_sprite = ExtResource( 17 )
 female_sprite = ExtResource( 18 )
 
-[node name="Kobold" type="Node" parent="Species" index="8"]
-
+[node name="Kobold" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "A natural inhabitant of the dungeons."
-ethnicity = ""
 hp_per_level = -1
 mp_per_level = -1
-xp_rate = 1.0
 hp_regen = 0.04
 mp_regen = 0.04
 move_speed = 1.1
-strength_mod = 0
 dexterity_mod = 3
 intelligence_mod = -1
-resistance = 0
 male_sprite = ExtResource( 19 )
 female_sprite = ExtResource( 20 )
 
-[node name="Merfolk" type="Node" parent="Species" index="9"]
-
+[node name="Merfolk" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "An aquatic creature more suited to the seas."
-ethnicity = ""
 hp_per_level = 2
-mp_per_level = 0
-xp_rate = 1.0
 hp_regen = 0.1
 mp_regen = 0.0
 move_speed = 0.8
 strength_mod = 2
 dexterity_mod = 2
-intelligence_mod = 0
-resistance = 0
 male_sprite = ExtResource( 21 )
 female_sprite = ExtResource( 22 )
 
-[node name="Minotaur" type="Node" parent="Species" index="10"]
-
+[node name="Minotaur" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "An unnatural creature who is compelled to challenge the dungeon. Almost void of magical ability, but extremely strong and tough compared to most."
-ethnicity = ""
 hp_per_level = 4
 mp_per_level = -4
 xp_rate = 0.8
@@ -249,11 +207,9 @@ resistance = 5
 male_sprite = ExtResource( 23 )
 female_sprite = ExtResource( 24 )
 
-[node name="Mummy" type="Node" parent="Species" index="11"]
-
+[node name="Mummy" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "The ritually preserved and reanimated corpse of an ancient noble. Nearly void of physical ability, but extremely powerful in the ways of magic."
-ethnicity = ""
 hp_per_level = -2
 mp_per_level = -2
 xp_rate = 0.9
@@ -267,133 +223,92 @@ resistance = 30
 male_sprite = ExtResource( 25 )
 female_sprite = ExtResource( 26 )
 
-[node name="Ogre" type="Node" parent="Species" index="12"]
-
+[node name="Ogre" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "Huge by human standards. Tiny by Giant standards. Ogres are hated by most, but still do what they can."
-ethnicity = ""
 hp_per_level = 3
 mp_per_level = -4
-xp_rate = 1.0
 hp_regen = 0.02
 mp_regen = 0.0
-move_speed = 1.0
 strength_mod = 3
 dexterity_mod = -2
 intelligence_mod = -2
-resistance = 0
 male_sprite = ExtResource( 27 )
 female_sprite = ExtResource( 28 )
 
-[node name="Orc" type="Node" parent="Species" index="13"]
-
+[node name="Orc" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "A dominant goblinoid species. Orcs are on par with humans regarding ability."
 ethnicity = "orcish"
 hp_per_level = 1
 mp_per_level = -1
-xp_rate = 1.0
 hp_regen = 0.04
-mp_regen = 0.01
-move_speed = 1.0
-strength_mod = 0
-dexterity_mod = 0
 intelligence_mod = -1
-resistance = 0
 male_sprite = ExtResource( 29 )
 female_sprite = ExtResource( 30 )
 
-[node name="Spriggan" type="Node" parent="Species" index="14"]
-
+[node name="Spriggan" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "A freaky tree person or something."
-ethnicity = ""
 hp_per_level = 3
 mp_per_level = 1
-xp_rate = 1.0
 hp_regen = 0.0
 mp_regen = 0.04
 move_speed = 0.5
 strength_mod = 3
 dexterity_mod = 3
 intelligence_mod = 3
-resistance = 0
 male_sprite = ExtResource( 31 )
 female_sprite = ExtResource( 32 )
 
-[node name="Troll" type="Node" parent="Species" index="15"]
-
+[node name="Troll" type="Node" parent="Species"]
 script = ExtResource( 2 )
 description = "A supernatural ability to heal damage, but lacking in almost any other ability."
-ethnicity = ""
 hp_per_level = 4
 mp_per_level = -5
-xp_rate = 1.0
 hp_regen = 0.3
 mp_regen = 0.0
 move_speed = 0.9
 strength_mod = 3
 dexterity_mod = -3
 intelligence_mod = -3
-resistance = 0
 male_sprite = ExtResource( 33 )
 female_sprite = ExtResource( 34 )
 
-[node name="Jobs" type="Node" parent="." index="1"]
+[node name="Jobs" type="Node" parent="."]
 
-editor/display_folded = true
-
-[node name="JobData" type="Node" parent="Jobs" index="0"]
-
+[node name="JobData" type="Node" parent="Jobs"]
 script = ExtResource( 35 )
 description = "A fighter who fights in fights"
-HP_die = 8
-MP_die = 2
-natural_accuracy = 0
-natural_armor = 0
-natural_resist = 0
 
-[node name="StartingGear" type="Node" parent="Jobs/JobData" index="0"]
+[node name="StartingGear" type="Node" parent="Jobs/JobData"]
 
-[node name="JobGearData" type="Node" parent="Jobs/JobData/StartingGear" index="0"]
-
+[node name="JobGearData" type="Node" parent="Jobs/JobData/StartingGear"]
 script = ExtResource( 36 )
 database_path = "Equipment/Body/LeatherJerkin"
-start_equipped = true
-quantity = 1
-option_group = ""
 
-[node name="Perks" type="Node" parent="Jobs/JobData" index="1"]
+[node name="Perks" type="Node" parent="Jobs/JobData"]
 
-[node name="Things" type="Node" parent="." index="2"]
+[node name="Things" type="Node" parent="."]
 
-[node name="Misc" type="Node" parent="Things" index="0"]
+[node name="Misc" type="Node" parent="Things"]
 
-[node name="Player" parent="Things/Misc" index="0" instance=ExtResource( 37 )]
-
+[node name="Player" parent="Things/Misc" instance=ExtResource( 37 )]
 thing_name = "Brogan"
 default_pawn_texture = ExtResource( 38 )
 blocks_movement = true
 stay_visible = true
 
-[node name="Fighter" parent="Things/Misc/Player" index="0" instance=ExtResource( 39 )]
-
-move_speed = 1.0
+[node name="Fighter" parent="Things/Misc/Player" instance=ExtResource( 39 )]
 invincible = true
 
-[node name="Player" parent="Things/Misc/Player" index="1" instance=ExtResource( 40 )]
+[node name="Player" parent="Things/Misc/Player" instance=ExtResource( 40 )]
 
-[node name="Hog" parent="Things/Misc" index="1" instance=ExtResource( 37 )]
-
+[node name="Hog" parent="Things/Misc" instance=ExtResource( 37 )]
 thing_name = "Hog"
 default_pawn_texture = ExtResource( 41 )
 blocks_movement = true
 
-[node name="Fighter" parent="Things/Misc/Hog" index="0" instance=ExtResource( 39 )]
+[node name="Fighter" parent="Things/Misc/Hog" instance=ExtResource( 39 )]
 
-move_speed = 1.0
-invincible = false
-
-[node name="AI" parent="Things/Misc/Hog" index="1" instance=ExtResource( 42 )]
-
-
+[node name="AI" parent="Things/Misc/Hog" instance=ExtResource( 42 )]

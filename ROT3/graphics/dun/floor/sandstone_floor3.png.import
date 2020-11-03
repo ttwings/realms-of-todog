@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/sandstone_floor3.png-b216a0108feec8c851dd76450537ceda.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/sandstone_floor3.png"
-source_md5="4e25ebbf8be15222d99d2016e56ce01c"
-
 dest_files=[ "res://.import/sandstone_floor3.png-b216a0108feec8c851dd76450537ceda.stex" ]
-dest_md5="41496007f09cffe39edd45e68ef53c95"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

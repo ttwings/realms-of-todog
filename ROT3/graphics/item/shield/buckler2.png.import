@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/buckler2.png-d7c5ea5a1bf258bc3422a8da1c8aedd6.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/item/shield/buckler2.png"
-source_md5="bbaea4e58378cbf224f03207cabc2b19"
-
 dest_files=[ "res://.import/buckler2.png-d7c5ea5a1bf258bc3422a8da1c8aedd6.stex" ]
-dest_md5="f23ac17b9733b5172341f21b5b6f2f62"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

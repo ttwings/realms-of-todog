@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/shield_round4.png-a9ed23ec59085a7e19924bce182da6c4.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/doll/shield/shield_round4.png"
-source_md5="65478ac819b93283e927a6f62299cbb6"
-
 dest_files=[ "res://.import/shield_round4.png-a9ed23ec59085a7e19924bce182da6c4.stex" ]
-dest_md5="c621524aaa5e3fbef967617709d58dbf"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/swamp3.png-f88abbb1010dab4c0147fa9a596e09eb.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/swamp3.png"
-source_md5="cd6d6d3f40e769bd02e47423bad439b7"
-
 dest_files=[ "res://.import/swamp3.png-f88abbb1010dab4c0147fa9a596e09eb.stex" ]
-dest_md5="5aca905c0d58977abbab486db0a71d79"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -61,7 +61,7 @@ func Fireball():
 		emit_signal("executed", false)
 		return false
 	else:	#Action Success!
-		assert typeof(action) == TYPE_VECTOR2
+		assert(typeof(action) == TYPE_VECTOR2)
 		var cells = world.map.get_floor_cells_in_radius( action )
 		var targets = world.map.get_things_in_cells(cells)
 		for cell in cells:
@@ -82,9 +82,9 @@ func Fireball():
 func SummonSwine():
 	var cell = RPG.player.cell
 	var cells = world.map.get_floor_cells_in_radius( cell, 4 )
-	for cell in cells:
-		if world.map.get_things_in_cells([cell]).empty():
-			world.map.add_thing( RPG.spawn( "Monster/Hog" ), cell )
+	for c in cells:
+		if world.map.get_things_in_cells([c]).empty():
+			world.map.add_thing( RPG.spawn( "Monster/Hog" ), c )
 	return true
 
 

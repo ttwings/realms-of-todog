@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/cobble_blood5.png-1945edf635d4f47fdad48a0e39a1e7c2.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/cobble_blood5.png"
-source_md5="003a08fa9a04bf1d7e7daf24988410f8"
-
 dest_files=[ "res://.import/cobble_blood5.png-1945edf635d4f47fdad48a0e39a1e7c2.stex" ]
-dest_md5="153cc6e39b893a32ba7fdbb88619ddf4"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

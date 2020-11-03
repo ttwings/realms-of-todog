@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/shadow.png-c7a8598b8b3e134126b186ba5d5fda91.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/player/base/shadow.png"
-source_md5="6891867495aa0f39e06c65838f4001aa"
-
 dest_files=[ "res://.import/shadow.png-c7a8598b8b3e134126b186ba5d5fda91.stex" ]
-dest_md5="3a084d3e8fe2f6d1f13971789d07a210"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

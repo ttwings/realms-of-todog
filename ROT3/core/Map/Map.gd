@@ -152,7 +152,7 @@ func is_cell_blocked( cell ):
 	for thing in get_blockers():
 		if thing.cell == cell:
 			return true
-	return !is_floor( cell )
+	return !is_cell_floor( cell )
 
 
 
@@ -286,7 +286,7 @@ func populate_room( room ):
 		var pos = get_random_room_cell(room)
 		var tries = 0
 		var passed = !pos in occupied
-		for i in range(5):
+		for j in range(5):
 			if !passed:
 				pos = get_random_room_cell(room)
 				passed = !pos in occupied

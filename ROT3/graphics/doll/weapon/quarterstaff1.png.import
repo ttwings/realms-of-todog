@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/quarterstaff1.png-3995b632b6f00de044f2af73f70200df.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/doll/weapon/quarterstaff1.png"
-source_md5="be0f1e370872e0c27471a45c1c2e8661"
-
 dest_files=[ "res://.import/quarterstaff1.png-3995b632b6f00de044f2af73f70200df.stex" ]
-dest_md5="4803aba7c84095d5af862c3a87e880c4"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

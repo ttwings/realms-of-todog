@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/floor_nerves0.png-5e2f42ed19c930ffc7cf4e2e10f87ff1.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/dun/floor/floor_nerves0.png"
-source_md5="13eac48bff99561b9e194995b9db8897"
-
 dest_files=[ "res://.import/floor_nerves0.png-5e2f42ed19c930ffc7cf4e2e10f87ff1.stex" ]
-dest_md5="de7716dee68aa88810dae0f535a9f850"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

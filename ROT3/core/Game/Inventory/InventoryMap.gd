@@ -44,7 +44,7 @@ func add_to_inventory( what ):
 	return ERR_BUG
 
 func remove_from_inventory( what ):
-	assert what in get_children()
+	assert(what in get_children())
 	remove_child( what )
 	
 

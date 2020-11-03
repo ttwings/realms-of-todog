@@ -40,7 +40,7 @@ func die(from_string):
 
 	
 func step_or_attack( direction ):
-	assert direction in RPG.DIRECTIONS.values()
+	assert (direction in RPG.DIRECTIONS.values())
 	
 	var acted = true
 	

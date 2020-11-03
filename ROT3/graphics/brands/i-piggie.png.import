@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/i-piggie.png-69286b0a9a93e8c26dbd11f9c9b77520.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/brands/i-piggie.png"
-source_md5="bdaa4f530bbe3402b44f20ed5ca83e74"
-
 dest_files=[ "res://.import/i-piggie.png-69286b0a9a93e8c26dbd11f9c9b77520.stex" ]
-dest_md5="6ac229e58fc1b963883f491e2f771308"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

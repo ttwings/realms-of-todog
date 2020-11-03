@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/orc_f.png-456c7b0df12783c5e8e8171605ef1e98.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/player/base/orc_f.png"
-source_md5="fc82ce71898dad30dfbc02661c9ba2aa"
-
 dest_files=[ "res://.import/orc_f.png-456c7b0df12783c5e8e8171605ef1e98.stex" ]
-dest_md5="5bced8bb7c844e7d100539f4fd830432"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

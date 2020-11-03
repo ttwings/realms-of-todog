@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/deep_elf_m.png-e011a56e9cdc648fd5a4958ca04a948c.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/player/base/deep_elf_m.png"
-source_md5="c50739ed3ce2926526801a338f119944"
-
 dest_files=[ "res://.import/deep_elf_m.png-e011a56e9cdc648fd5a4958ca04a948c.stex" ]
-dest_md5="f97aefd0b05f2aa26c59706a590e3ece"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

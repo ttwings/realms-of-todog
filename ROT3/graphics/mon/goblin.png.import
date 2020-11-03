@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/goblin.png-614ab38fefc52a3bdaad91a66d6ac9ba.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://graphics/mon/goblin.png"
-source_md5="91a174b6e534818fa83d16d27bed1fa4"
-
 dest_files=[ "res://.import/goblin.png-614ab38fefc52a3bdaad91a66d6ac9ba.stex" ]
-dest_md5="79128b754702f6a95e398114155f7ba3"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=false
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=false

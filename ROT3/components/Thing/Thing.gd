@@ -75,7 +75,7 @@ func _set_blocks_movement( what ):
 			add_to_group("blockers")
 	else:
 		if is_in_group("blockers"):
-			remove_from_gruop("blockers")
+			remove_from_group("blockers")
 	
 func _set_blocks_sight( what ):
 	blocks_sight = what
@@ -84,7 +84,7 @@ func _set_blocks_sight( what ):
 			add_to_group("sightblockers")
 	else:
 		if is_in_group("sightblockers"):
-			remove_from_gruop("sightblockers")
+			remove_from_group("sightblockers")
 
 
 func _set_cell( what ):
